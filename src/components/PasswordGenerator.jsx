@@ -1,7 +1,7 @@
 import { useState, useCallback } from 'react';
-import './App.css'; 
+import '../App.css';
 
-function App() {
+function PasswordGenerator() {
   const [length, setLength] = useState(8);
   const [numberAllowed, setNumberAllowed] = useState(false);
   const [charAllowed, setCharAllowed] = useState(false);
@@ -84,4 +84,4 @@ function App() {
   );
 }
 
-export default App;
+export default PasswordGenerator;
